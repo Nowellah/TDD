@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,20 @@
     "eslint": "^9.36.0",
     "globals": "^16.4.0",
     "mocha": "^11.7.2"
-  }
+  },
+  "dependencies": {
+    "black": "^0.3.0",
+    "pytest": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nowellah/TDD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nowellah/TDD/issues"
+  },
+  "homepage": "https://github.com/Nowellah/TDD#readme"
 }

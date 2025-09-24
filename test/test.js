@@ -1,6 +1,6 @@
 import assert from 'assert';
 import { describe, it } from 'mocha';
-import multiply from './multiply.js';
+import multiply from '../multiply.js';
 
 describe('multiply', () => {
     it('should return 1 when multiplying 1 and 1', () => {
